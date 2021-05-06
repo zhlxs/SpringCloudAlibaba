@@ -1,0 +1,5 @@
+com\alibaba\core\controller\user\UserController.class
+com\alibaba\core\domain\entity\user\User.class
+com\alibaba\core\UserCenterApplication.class
+com\alibaba\core\dao\user\UserMapper.class
+com\alibaba\core\service\user\UserService.class
