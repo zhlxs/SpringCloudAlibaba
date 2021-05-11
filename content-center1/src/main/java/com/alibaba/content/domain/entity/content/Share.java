@@ -1,8 +1,13 @@
 package com.alibaba.content.domain.entity.content;
 
+import lombok.Builder;
+import lombok.Data;
+
 import java.util.Date;
 import javax.persistence.*;
 
+@Data
+@Builder
 @Table(name = "share")
 public class Share {
     /**
@@ -68,7 +73,7 @@ public class Share {
     private String downloadUrl;
 
     /**
-     * 下载数 
+     * 下载数
      */
     @Column(name = "buy_count")
     private Integer buyCount;
@@ -289,18 +294,18 @@ public class Share {
     }
 
     /**
-     * 获取下载数 
+     * 获取下载数
      *
-     * @return buy_count - 下载数 
+     * @return buy_count - 下载数
      */
     public Integer getBuyCount() {
         return buyCount;
     }
 
     /**
-     * 设置下载数 
+     * 设置下载数
      *
-     * @param buyCount 下载数 
+     * @param buyCount 下载数
      */
     public void setBuyCount(Integer buyCount) {
         this.buyCount = buyCount;

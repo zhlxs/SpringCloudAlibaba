@@ -1,7 +1,7 @@
 package com.alibaba.content.feign;
 
 import com.alibaba.content.config.UserCenterFeignConfiguration;
-import com.alibaba.content.domain.dto.user.UserDTO;
+import com.alibaba.content.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

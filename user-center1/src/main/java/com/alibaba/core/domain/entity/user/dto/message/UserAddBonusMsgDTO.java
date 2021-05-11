@@ -1,4 +1,4 @@
-package com.alibaba.content.domain.dto.message;
+package com.alibaba.core.domain.entity.user.dto.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

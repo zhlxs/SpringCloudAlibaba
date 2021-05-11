@@ -1,21 +1,16 @@
-package com.alibaba.content.domain.entity.content;
+package com.alibaba.content.model;
 
 import java.util.Date;
-import javax.persistence.*;
 
-@Table(name = "share")
 public class Share {
     /**
      * id
      */
-    @Id
-    @GeneratedValue(generator = "JDBC")
     private Integer id;
 
     /**
      * 发布人id
      */
-    @Column(name = "user_id")
     private Integer userId;
 
     /**
@@ -26,19 +21,16 @@ public class Share {
     /**
      * 创建时间
      */
-    @Column(name = "create_time")
     private Date createTime;
 
     /**
      * 修改时间
      */
-    @Column(name = "update_time")
     private Date updateTime;
 
     /**
      * 是否原创 0:否 1:是
      */
-    @Column(name = "is_original")
     private Boolean isOriginal;
 
     /**
@@ -64,25 +56,21 @@ public class Share {
     /**
      * 下载地址
      */
-    @Column(name = "download_url")
     private String downloadUrl;
 
     /**
-     * 下载数 
+     * 下载数
      */
-    @Column(name = "buy_count")
     private Integer buyCount;
 
     /**
      * 是否显示 0:否 1:是
      */
-    @Column(name = "show_flag")
     private Boolean showFlag;
 
     /**
      * 审核状态 NOT_YET: 待审核 PASSED:审核通过 REJECTED:审核不通过
      */
-    @Column(name = "audit_status")
     private String auditStatus;
 
     /**
@@ -289,18 +277,18 @@ public class Share {
     }
 
     /**
-     * 获取下载数 
+     * 获取下载数
      *
-     * @return buy_count - 下载数 
+     * @return buy_count - 下载数
      */
     public Integer getBuyCount() {
         return buyCount;
     }
 
     /**
-     * 设置下载数 
+     * 设置下载数
      *
-     * @param buyCount 下载数 
+     * @param buyCount 下载数
      */
     public void setBuyCount(Integer buyCount) {
         this.buyCount = buyCount;

@@ -1,9 +1,5 @@
-package com.alibaba.content.domain.dto.content;
+package com.alibaba.content.dto;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Date;
 
 public class ShareDTO {

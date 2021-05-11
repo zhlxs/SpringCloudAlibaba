@@ -1,4 +1,4 @@
-package com.itmuch.contentcenter.domain.enums;
+package com.alibaba.content.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

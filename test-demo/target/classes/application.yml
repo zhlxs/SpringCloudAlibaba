@@ -8,11 +8,11 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8080
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/user_center?serverTimezone=GMT%2B8&autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
-#    username: root
-#    password: 123456
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_center?serverTimezone=GMT%2B8&autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
   main:
     allow-bean-definition-overriding: true
 server:

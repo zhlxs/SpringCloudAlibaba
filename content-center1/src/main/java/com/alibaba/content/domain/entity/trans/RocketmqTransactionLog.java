@@ -1,13 +1,11 @@
 package com.alibaba.content.domain.entity.trans;
 
 import javax.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
-@Getter
-@Setter
-@ToString
+import lombok.*;
+
+@Data
+@Builder
 @Table(name = "rocketmq_transaction_log")
 public class RocketmqTransactionLog {
     /**

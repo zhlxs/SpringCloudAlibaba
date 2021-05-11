@@ -1,7 +1,16 @@
-package com.alibaba.content.dao.content;
+package com.alibaba.content.mapper;
 
-import com.alibaba.content.domain.entity.content.Share;
-import tk.mybatis.mapper.common.Mapper;
+import com.alibaba.content.model.Share;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
-public interface ShareMapper extends Mapper<Share> {
+import java.util.List;
+
+public interface ShareMapper extends BaseMapper<Share> {
+
+    /**
+     * 查询全部分享
+     *
+     * @return
+     */
+    List<Share> findAllShare();
 }

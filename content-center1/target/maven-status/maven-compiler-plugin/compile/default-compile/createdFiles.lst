@@ -1,0 +1,12 @@
+specialconfig\RibbonConfig.class
+com\alibaba\content\service\content\ShareService.class
+com\alibaba\content\dao\content\ShareMapper.class
+com\alibaba\content\config\UserCenterRibbonConfiguration.class
+com\alibaba\content\domain\entity\content\Share.class
+com\alibaba\content\domain\dto\content\ShareDTO.class
+com\alibaba\content\feign\BaiduFeignTestClient.class
+com\alibaba\content\controller\content\ShareController.class
+com\alibaba\content\feign\UserCenterFeignClient.class
+com\alibaba\content\ContentCenterApplication.class
+com\alibaba\content\config\UserCenterFeignConfiguration.class
+com\alibaba\content\domain\dto\user\UserDTO.class

@@ -1,4 +1,4 @@
-package com.itmuch.contentcenter.domain.dto.messaging;
+package com.alibaba.content.domain.dto.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

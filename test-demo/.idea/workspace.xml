@@ -34,13 +34,11 @@
       <change afterPath="$PROJECT_DIR$/../content/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../content/src/main/resources/mapper/ShareMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../content/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../content/target/classes/com/alibaba/content/ContentApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/test-demo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -152,7 +150,7 @@
       <updated>1620466188071</updated>
       <workItem from="1620466189459" duration="288000" />
       <workItem from="1620466497513" duration="504000" />
-      <workItem from="1620484795136" duration="21000" />
+      <workItem from="1620484795136" duration="1870000" />
     </task>
     <servers />
   </component>
