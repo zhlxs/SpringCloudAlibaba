@@ -1,0 +1,69 @@
+spring:
+  application:
+    name: content
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 #nacos的地址
+    sentinel:
+      transport:
+        #port: 8720
+        dashboard: localhost:8080
+  datasource:
+    url: jdbc:mysql://localhost:3306/content_center?serverTimezone=GMT%2B8&autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
+    hikari:
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9006
+#Ribbon实现属性配置方式
+#user-center:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#请求微服务实例时使用饥饿加载的方式
+#ribbon:
+#  eager-load:
+#    enabled: true
+#    clients: user-center
+#logging:
+#  level:
+#    com.alibaba.content.feign.UserCenterFeignClient: debug #feign的日志配置需要接口就是debug级别
+#属性配置
+#feign:
+#  client:
+#    config:
+#      user-center:
+#        loggerLevel: full
+#全局配置
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: full
+
+#让feign使用apache httpclient做请求工具，性能优化
+#feign:
+#  httpclient:
+#    enabled: true
+#    max-connections: 200 #feign的最大连接数
+#    max-connections-per-route: 50 #单路径的最大连接数
+#
+#management:
+#  endpoint:
+#    web:
+#      exposure:
+#        include: '*'
+#
+#mybatis-plus:
+#  configuration:
+#    map-underscore-to-camel-case: true
+#    auto-mapping-behavior: full
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath*:mapper/*Mapper.xml
+#  global-config:
+#    db-config:
+#      logic-not-delete-value: 1
+#      logic-delete-value: 0

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: test-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 #nacos的地址
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/user_center?serverTimezone=GMT%2B8&autoReconnect=false&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true
+#    username: root
+#    password: 123456
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9007
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

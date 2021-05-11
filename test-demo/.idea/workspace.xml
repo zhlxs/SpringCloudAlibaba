@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a39d0dd-b8a9-41bc-96b9-19ff8f007c93" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/config/UserCenterFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/config/UserCenterRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/feign/BaiduFeignTestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/feign/UserCenterFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center1/src/main/java/specialconfig/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/content.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/ContentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/config/UserCenterFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/config/UserCenterRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/controller/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/dto/ShareDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/feign/BaiduFeignTestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/feign/UserCenterFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/mapper/ShareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/model/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/service/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/com/alibaba/content/service/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/java/specialconfig/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/src/main/resources/mapper/ShareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content/target/classes/com/alibaba/content/ContentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/TestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/ContentCenterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/ContentCenterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/service/content/ShareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/src/main/java/com/alibaba/content/service/content/ShareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/target/classes/com/alibaba/content/ContentCenterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/target/classes/com/alibaba/content/ContentCenterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content-center1/target/classes/com/alibaba/content/service/content/ShareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../content-center1/target/classes/com/alibaba/content/service/content/ShareService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-center1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-center1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-center1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-center1/target/classes/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JAVA\Lib-ali" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sFR7gdfQTZKx53Cp3RSbQoUmAA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\SpringCloudAlibaba-main2\test-demo\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\BOOWAY\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4a39d0dd-b8a9-41bc-96b9-19ff8f007c93" name="默认变更列表" comment="" />
+      <created>1620466188071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620466188071</updated>
+      <workItem from="1620466189459" duration="288000" />
+      <workItem from="1620466497513" duration="504000" />
+      <workItem from="1620484795136" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
