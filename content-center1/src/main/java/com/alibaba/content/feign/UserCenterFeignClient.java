@@ -8,14 +8,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "user-center", configuration = UserCenterFeignConfiguration.class)
 //@FeignClient(name = "user-center")
-public interface UserCenterFeignClient {
+public interface UserCenterFeignClient
+{
 
-    /**
-     * feign
-     *
-     * @param id 主键
-     * @return 用户信息
-     */
-    @GetMapping("/userController/{id}")
-    UserDTO findById(@PathVariable("id") Integer id);
+	/**
+	 * feign
+	 *
+	 * @param id 主键
+	 * @return 用户信息
+	 */
+	@GetMapping("/userController/{id}")
+	UserDTO findById(@PathVariable("id") Integer id);
 }

@@ -11,9 +11,9 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class UserCenterApplication
 {
 
-    public static void main(String[] args)
-    {
-        SpringApplication.run(UserCenterApplication.class, args);
-    }
+	public static void main(String[] args)
+	{
+		SpringApplication.run(UserCenterApplication.class, args);
+	}
 
 }
