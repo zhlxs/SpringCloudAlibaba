@@ -23,7 +23,8 @@ spring:
         - id: user_route
           uri: lb://user-center
           predicates:
-            - Path=/userController/**
+            - TimeBetween=上午0:00,下午11:00
+#            - Path=/userController/**
         - id: content_route
           uri: lb://content-center
           predicates:
