@@ -23,11 +23,11 @@ spring:
         - id: user_route
           uri: lb://user-center
           predicates:
-            - Path=/users/**
+            - Path=/userController/**
         - id: content_route
           uri: lb://content-center
           predicates:
-            - Path=/shares/**,/admin/**
+            - Path=/shareController/**,/admin/**
 management:
   endpoints:
     web:
