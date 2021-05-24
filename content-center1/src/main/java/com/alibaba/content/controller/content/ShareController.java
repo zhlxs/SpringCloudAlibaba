@@ -10,19 +10,21 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/shareController")
-public class ShareController {
+public class ShareController
+{
 
-    @Autowired
-    private ShareService shareService;
+	@Autowired
+	private ShareService shareService;
 
-    /**
-     * 查询分享内容
-     *
-     * @param id
-     * @return
-     */
-    @GetMapping("/{id}")
-    public ShareDTO findById(@PathVariable Integer id) {
-        return shareService.findById(id);
-    }
+	/**
+	 * 查询分享内容
+	 *
+	 * @param id
+	 * @return
+	 */
+	@GetMapping("/{id}")
+	public ShareDTO findById(@PathVariable Integer id)
+	{
+		return shareService.findById(id);
+	}
 }

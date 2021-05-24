@@ -8,16 +8,19 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
-public class UserService {
+public class UserService
+{
 
-    private final UserMapper userMapper;
+	private final UserMapper userMapper;
 
-    /**
-     * 根据Id查询用户
-     * @param id
-     * @return
-     */
-    public User findById(Integer id) {
-        return this.userMapper.selectByPrimaryKey(id);
-    }
+	/**
+	 * 根据Id查询用户
+	 *
+	 * @param id
+	 * @return
+	 */
+	public User findById(Integer id)
+	{
+		return this.userMapper.selectByPrimaryKey(id);
+	}
 }

@@ -9,13 +9,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UserAddBonusMsgDTO {
-    /**
-     * 为谁加积分
-     */
-    private Integer userId;
-    /**
-     * 加多少积分
-     */
-    private Integer bonus;
+public class UserAddBonusMsgDTO
+{
+	/**
+	 * 为谁加积分
+	 */
+	private Integer userId;
+	/**
+	 * 加多少积分
+	 */
+	private Integer bonus;
 }

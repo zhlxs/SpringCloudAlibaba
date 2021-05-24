@@ -1,28 +1,33 @@
 package com.alibaba.content.domain.entity.trans;
 
-import javax.persistence.*;
+import lombok.Builder;
+import lombok.Data;
 
-import lombok.*;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Data
 @Builder
 @Table(name = "rocketmq_transaction_log")
-public class RocketmqTransactionLog {
-    /**
-     * id
-     */
-    @Id
-    @GeneratedValue(generator = "JDBC")
-    private Integer id;
+public class RocketmqTransactionLog
+{
+	/**
+	 * id
+	 */
+	@Id
+	@GeneratedValue(generator = "JDBC")
+	private Integer id;
 
-    /**
-     * 事务id
-     */
-    @Column(name = "transaction_Id")
-    private String transactionId;
+	/**
+	 * 事务id
+	 */
+	@Column(name = "transaction_Id")
+	private String transactionId;
 
-    /**
-     * 日志
-     */
-    private String log;
+	/**
+	 * 日志
+	 */
+	private String log;
 }

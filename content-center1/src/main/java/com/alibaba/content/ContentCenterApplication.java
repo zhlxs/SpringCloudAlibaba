@@ -1,7 +1,7 @@
 package com.alibaba.content;
 
 //import com.alibaba.content.config.UserCenterFeignConfiguration;
-import com.netflix.loadbalancer.IPing;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -11,20 +11,23 @@ import org.springframework.web.client.RestTemplate;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@MapperScan("com.alibaba.content.dao.content")
+@MapperScan("com.alibaba.content.dao")
 //@EnableFeignClients(defaultConfiguration = UserCenterFeignConfiguration.class) //feign全局配置
 @EnableFeignClients
-public class ContentCenterApplication {
+public class ContentCenterApplication
+{
 
-    public static void main(String[] args) {
-        SpringApplication.run(ContentCenterApplication.class, args);
-    }
+	public static void main(String[] args)
+	{
+		SpringApplication.run(ContentCenterApplication.class, args);
+	}
 
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
+	@Bean
+	@LoadBalanced
+	public RestTemplate restTemplate()
+	{
+		return new RestTemplate();
+	}
 }
 /**
  * 1.雪崩效应：cascading failure，级联失效，级联故障
