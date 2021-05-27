@@ -44,11 +44,14 @@ logging:
 #    config:
 #      user-center:
 #        loggerLevel: full
-#全局配置
-#feign:
-#  client:
-#    config:
-#      default:
+#feign全局配置
+feign:
+  client:
+    config:
+      default:
+        #拦截器传递token的配置
+        requestInterceptors:
+          - com.alibaba.content.interceptor.TokenRelayRequestIntecepor
 #        loggerLevel: full
 
 #让feign使用apache httpclient做请求工具，性能优化
@@ -68,3 +71,8 @@ rocketmq:
   name-server: 127.0.0.1:9876
   producer:
     group: test-group #小坑，必须指定group
+
+jwt:
+  secret: aaaaaaabbbbbbcccccdddddaaaaaaabbbbbbcccccdddddaaaaaaabbbbbbcccccddddd
+  # 有效期，单位秒，默认2周
+  expire-time-in-second: 1209600

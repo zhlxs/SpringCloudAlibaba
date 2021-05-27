@@ -1,8 +1,8 @@
 # Default ignored files
-/shelf/
-/workspace.xml
+#/shelf/
+#/workspace.xml
 # Datasource local storage ignored files
-/../../../../../:\JAVA\SpringCloudAlibaba\user-center1\.idea/dataSources/
-/dataSources.local.xml
+#/../../../../../:\JAVA\SpringCloudAlibaba\user-center1\.idea/dataSources/
+#/dataSources.local.xml
 # Editor-based HTTP Client requests
-/httpRequests/
+#/httpRequests/

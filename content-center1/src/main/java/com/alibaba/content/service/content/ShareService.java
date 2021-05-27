@@ -38,7 +38,7 @@ public class ShareService
 
 	private final RocketMQTemplate rocketMQTemplate;
 
-	public ShareDTO findById(Integer id)
+	public ShareDTO findById(Integer id, String token)
 	{
 		//获取分享详情
 		Share share = shareMapper.selectByPrimaryKey(id);
@@ -61,7 +61,7 @@ public class ShareService
 		//String targetUrl = "http://user-center/userController/{userId}";
 		//UserDTO userDTO = restTemplate.getForObject(targetUrl, UserDTO.class, userId);
 		//整合Feign接口请求方式
-		UserDTO userDTO = this.userCenterFeignClient.findById(userId);
+		UserDTO userDTO = this.userCenterFeignClient.findById(userId, token);
 		ShareDTO shareDTO = new ShareDTO();
 		BeanUtils.copyProperties(share, shareDTO);
 		//TODO NULL
